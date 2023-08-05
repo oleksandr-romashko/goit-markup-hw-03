@@ -1,0 +1,256 @@
+/*=============================================
+=            VARIABLES                        =
+=============================================*/
+
+:root {
+  /*----------  COLORS  ----------*/
+
+  /* IRIS - Primary Brand - on design layout color */
+  --brand-color: #4d5ae5;
+  /* NAVY BLUE - Dark - on design layout color */
+  --menu-item-color: #2e2f42;
+  --hero-bg-color: #2e2f42;
+  --title-color: #2e2f42;
+  /* SLATE - Text - on design layout color */
+  --primary-color-black: #434455;
+  /* WHITE - White background - on design layout color */
+  --secondary-color-white: #ffffff;
+  /* CORNFLOWER - Accent - on design layout color */
+  --primary-accent-color: #e7e9fc;
+  /* CLOUD - Light - on design layout color */
+  --secondary-accent-color: #f4f4fd;
+  /* OCEAN - Pressed state - on design layout color */
+  --active-element-color: #404bbf;
+
+  /*---------  FONT STYLES  ------*/
+
+  /* sizes */
+  --page-title-text-size: 56px;
+  --title-text-size: 36px;
+  --subtitle-text-size: 20px;
+  --logo-text-size: 18px;
+  --menu-item-text-size: 16px;
+  --btn-text-size: 16px;
+  --body-text-size: 16px;
+
+  /* weights */
+  --logo-text-weight: 800;
+  --title-text-weight: 700;
+  --subtitle-text-weight: 500;
+  --menu-item-text-weight: 500;
+  --btn-text-weight: 500;
+  --main-text-weight: 400;
+}
+
+/*=============================================
+=            COMMON STYLES                    =
+=============================================*/
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--body-text-size);
+  font-weight: var(--main-text-weight);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--primary-color-black);
+  background-color: var(--secondary-color-white);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*=============================================
+=            COMPONENTS                       =
+=============================================*/
+
+/*----------  LOGOTYPE  ------*/
+
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-size: var(--logo-text-size);
+  font-weight: var(--logo-text-weight);
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  color: var(--brand-color);
+  text-transform: uppercase;
+}
+
+.logotype-right-accent {
+  color: var(--title-color);
+}
+
+/*----  SECTION HEADINGS  ----*/
+
+.section-title {
+  text-align: center;
+
+  font-size: var(--title-text-size);
+  font-weight: var(--title-text-weight);
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  color: var(--title-color);
+  text-transform: capitalize;
+}
+
+.section-subtitle {
+  font-size: var(--subtitle-text-size);
+  font-weight: var(--subtitle-text-weight);
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--title-color);
+}
+
+/*----------  BUTTON  --------*/
+
+.basic-btn {
+  border: none;
+  font-family: inherit;
+  font-size: var(--btn-text-size);
+  font-weight: var(--btn-text-weight);
+  line-height: inherit;
+  letter-spacing: 0.64px;
+  background-color: var(--brand-color);
+  color: var(--secondary-color-white);
+}
+
+/*=============================================
+=            HEADER                           =
+=============================================*/
+
+/*----------  MENU  ----------*/
+
+.page-header .menu-item-link {
+  font-size: var(--menu-item-text-size);
+  font-weight: var(--menu-item-text-weight);
+  color: var(--menu-item-color);
+}
+
+.page-header .menu-item-link:hover,
+.page-header .menu-item-link:focus {
+  color: var(--active-element-color);
+}
+
+/*----------  CONTACTS  ------*/
+
+.page-header .contacts {
+  font-style: normal;
+}
+
+.page-header .contact {
+  color: var(--primary-color-black);
+}
+
+.page-header .contact:hover,
+.page-header .contact:focus {
+  color: var(--active-element-color);
+}
+
+/*--------  HEADER LINE  -----*/
+
+.page-header .bg-line {
+  border: none;
+  background-color: var(--primary-accent-color);
+}
+
+/*=============================================
+=            FOOTER                           =
+=============================================*/
+
+.page-footer {
+  background-color: var(--title-color);
+}
+
+.page-footer .logotype-right-accent {
+  color: var(--secondary-accent-color);
+}
+
+.page-footer .moto-text {
+  color: var(--secondary-accent-color);
+}
+
+/*=============================================
+=            MAIN CONTENT                     =
+=============================================*/
+
+/*----------  HERO  ----------*/
+
+.hero {
+  background-color: var(--hero-bg-color);
+}
+
+.hero .page-title {
+  text-align: center;
+
+  font-size: var(--page-title-text-size);
+  font-weight: var(--title-text-weight);
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: var(--secondary-color-white);
+}
+
+.hero .order-btn:hover,
+.hero .order-btn:focus {
+  background-color: var(--active-element-color);
+}
+
+/*----------  BENEFITS  ----------*/
+
+.benefits .section-title {
+  visibility: hidden;
+}
+
+/*----------  ABOUT  -------------*/
+
+.about .about-img {
+  border: 1px solid var(--primary-accent-color);
+}
+
+/*----------  TEAM  --------------*/
+
+.team {
+  background-color: var(--secondary-accent-color);
+}
+
+.team .team-member-card {
+  background-color: var(--secondary-color-white);
+}
+
+/*----------  PORTFOLIO  -------*/
+
+.portfolio .page-title {
+  visibility: hidden;
+}
+
+.portfolio .section-title {
+  visibility: hidden;
+}
+
+.portfolio .filter-btn {
+  border: 1px solid var(--primary-accent-color);
+  background-color: var(--secondary-accent-color);
+  color: var(--brand-color);
+}
+
+.portfolio .filter-btn:hover,
+.portfolio .filter-btn:focus {
+  border: none;
+  background-color: var(--active-element-color);
+  color: var(--secondary-color-white);
+}
+
+.portfolio .project-card {
+  border: 1px solid var(--primary-accent-color);
+}
+
+.portfolio .project-category {
+  color: var(--primary-color-black);
+}
