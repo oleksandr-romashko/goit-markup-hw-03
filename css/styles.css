@@ -155,6 +155,8 @@ body {
 /*----------  MENU  ----------*/
 
 .page-header .menu-item-link {
+  display: block;
+
   font-size: var(--menu-item-text-size);
   font-weight: var(--menu-item-text-weight);
   color: var(--menu-item-color);
