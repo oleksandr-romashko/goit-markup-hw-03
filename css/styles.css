@@ -46,11 +46,37 @@
 =            COMMON STYLES                    =
 =============================================*/
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 button {
   cursor: pointer;
 }
 
 body {
+  /* modern-normalize will replace this margin setting */
+  margin: 0;
+
   font-family: "Roboto", sans-serif;
   font-size: var(--body-text-size);
   font-weight: var(--main-text-weight);
