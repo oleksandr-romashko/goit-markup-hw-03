@@ -280,17 +280,34 @@ body {
 /*----------  HERO  ----------*/
 
 .hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: var(--hero-bg-color);
+  margin-bottom: 60px;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero .page-title {
-  text-align: center;
+  width: 496px;
+  margin-bottom: 48px;
 
   font-size: var(--page-title-text-size);
   font-weight: var(--title-text-weight);
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
   color: var(--secondary-color-white);
+}
+
+.hero .order-btn {
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero .order-btn:hover,
