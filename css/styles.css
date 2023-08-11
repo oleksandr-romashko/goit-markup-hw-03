@@ -67,6 +67,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: var(--body-text-size);
