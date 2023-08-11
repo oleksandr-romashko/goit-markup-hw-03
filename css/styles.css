@@ -344,6 +344,15 @@ body {
   padding-bottom: 120px;
 }
 
+.about-list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.about-list-item {
+  flex-basis: calc((100% - 3 * 24) / 3);
+}
+
 .about .about-img {
   border: 1px solid var(--primary-accent-color);
 }
