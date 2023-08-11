@@ -178,32 +178,76 @@ body {
 =            HEADER                           =
 =============================================*/
 
+.page-header {
+  border-bottom: 1px solid var(--primary-accent-color);
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-header .link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/*-----  PAGE NAVIGATION  ----*/
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 784px;
+}
+
+.page-header .logotype {
+  margin-right: 76px;
+}
+
 /*----------  MENU  ----------*/
 
-.page-header .menu-item-link {
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 40px;
+}
+
+.menu-item-link {
   font-size: var(--menu-item-text-size);
   font-weight: var(--menu-item-text-weight);
   color: var(--menu-item-color);
 }
 
-.page-header .menu-item-link:hover,
-.page-header .menu-item-link:focus {
+.menu-item-link:hover,
+.menu-item-link:focus {
   color: var(--active-element-color);
 }
 
 /*----------  CONTACTS  ------*/
 
-.page-header .contacts {
+.contacts-list {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.contacts {
   font-style: normal;
 }
 
-.page-header .contact {
+.contact {
   color: var(--primary-color-black);
 }
 
-.page-header .contact:hover,
-.page-header .contact:focus {
+.contact:hover,
+.contact:focus {
   color: var(--active-element-color);
+}
+
+.contact-phone-number {
+  white-space: nowrap;
 }
 
 /*--------  HEADER LINE  -----*/
