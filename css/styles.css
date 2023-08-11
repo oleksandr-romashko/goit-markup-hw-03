@@ -262,6 +262,8 @@ body {
 =============================================*/
 
 .page-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--title-color);
 }
 
@@ -283,7 +285,6 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--hero-bg-color);
-  margin-bottom: 60px;
 }
 
 .hero .container {
@@ -315,7 +316,19 @@ body {
   background-color: var(--active-element-color);
 }
 
+/*---------  BENEFITS  -----------*/
+
+.benefits {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
 /*----------  ABOUT  -------------*/
+
+.about {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
 
 .about .about-img {
   border: 1px solid var(--primary-accent-color);
@@ -324,6 +337,8 @@ body {
 /*----------  TEAM  --------------*/
 
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--secondary-accent-color);
 }
 
