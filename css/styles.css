@@ -159,6 +159,21 @@ body {
   color: var(--secondary-color-white);
 }
 
+/*-  VISUALLY HIDDEN PATERN  -*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*=============================================
 =            HEADER                           =
 =============================================*/
@@ -239,12 +254,6 @@ body {
   background-color: var(--active-element-color);
 }
 
-/*----------  BENEFITS  ----------*/
-
-.benefits .section-title {
-  visibility: hidden;
-}
-
 /*----------  ABOUT  -------------*/
 
 .about .about-img {
@@ -262,14 +271,6 @@ body {
 }
 
 /*----------  PORTFOLIO  -------*/
-
-.portfolio .page-title {
-  visibility: hidden;
-}
-
-.portfolio .section-title {
-  visibility: hidden;
-}
 
 .portfolio .filter-btn {
   border: 1px solid var(--primary-accent-color);
