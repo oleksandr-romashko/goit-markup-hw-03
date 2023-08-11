@@ -324,6 +324,19 @@ body {
   padding-bottom: 60px;
 }
 
+.benefits-list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.benefits-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.benefit-name {
+  margin-bottom: 8px;
+}
+
 /*----------  ABOUT  -------------*/
 
 .about {
