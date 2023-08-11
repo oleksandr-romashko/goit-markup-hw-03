@@ -179,10 +179,6 @@ body {
 =            HEADER                           =
 =============================================*/
 
-.page-header {
-  border-bottom: 1px solid var(--primary-accent-color);
-}
-
 .page-header-container {
   display: flex;
   align-items: center;
@@ -253,9 +249,8 @@ body {
 
 /*--------  HEADER LINE  -----*/
 
-.page-header .bg-line {
-  border: none;
-  background-color: var(--primary-accent-color);
+.page-header {
+  border-bottom: 1px solid var(--primary-accent-color);
 }
 
 /*=============================================
