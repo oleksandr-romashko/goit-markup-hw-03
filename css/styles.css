@@ -394,7 +394,21 @@ body {
 
 /*----------  PORTFOLIO  -------*/
 
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.portfolio .filters-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  margin-bottom: 72px;
+}
+
 .portfolio .filter-btn {
+  padding: 12px 24px;
+  border-radius: 4px;
   border: 1px solid var(--primary-accent-color);
   background-color: var(--secondary-accent-color);
   color: var(--brand-color);
@@ -402,9 +416,11 @@ body {
 
 .portfolio .filter-btn:hover,
 .portfolio .filter-btn:focus {
-  border: none;
+  border-color: var(--active-element-color);
   background-color: var(--active-element-color);
   color: var(--secondary-color-white);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio .project-card {
