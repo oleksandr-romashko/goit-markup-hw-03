@@ -24,6 +24,10 @@
 
   /*---------  FONT STYLES  ------*/
 
+  /* families */
+  --main-text-family: "Roboto";
+  --default-text-family: sans-serif;
+
   /* sizes */
   --page-title-text-size: 56px;
   --title-text-size: 36px;
@@ -72,7 +76,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-text-family), var(--default-text-family);
   font-size: var(--body-text-size);
   font-weight: var(--main-text-weight);
   line-height: 1.5;
