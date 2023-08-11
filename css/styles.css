@@ -156,8 +156,6 @@ body {
 /*----------  MENU  ----------*/
 
 .page-header .menu-item-link {
-  margin-bottom: 4px;
-
   font-size: var(--menu-item-text-size);
   font-weight: var(--menu-item-text-weight);
   color: var(--menu-item-color);
