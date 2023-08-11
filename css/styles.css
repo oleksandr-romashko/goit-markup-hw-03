@@ -24,6 +24,12 @@
 
   /*---------  FONT STYLES  ------*/
 
+  /* families */
+  --main-text-family: "Roboto";
+  --main-text-default-family: sans-serif;
+  --logo-text-family: "Roboto";
+  --logo-text-default-family: sans-serif;
+
   /* sizes */
   --page-title-text-size: 56px;
   --title-text-size: 36px;
@@ -72,7 +78,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-text-family), var(--main-text-default-family);
   font-size: var(--body-text-size);
   font-weight: var(--main-text-weight);
   line-height: 1.5;
@@ -96,7 +102,7 @@ body {
 /*----------  LOGOTYPE  ------*/
 
 .logotype {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--logo-text-family), var(--logo-text-default-family);
   font-size: var(--logo-text-size);
   font-weight: var(--logo-text-weight);
   line-height: 1.17;
