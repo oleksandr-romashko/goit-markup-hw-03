@@ -274,11 +274,9 @@ body {
   background-color: var(--title-color);
 }
 
-.page-footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  row-gap: 16px;
+.page-footer .logotype {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .page-footer .logotype-right-accent {
