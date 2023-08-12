@@ -234,12 +234,15 @@ body {
 .contacts-list {
   display: flex;
   justify-content: flex-end;
-  column-gap: 40px;
   align-items: center;
 }
 
 .contacts {
   font-style: normal;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .contact {
