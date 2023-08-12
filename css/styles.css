@@ -333,7 +333,7 @@ body {
 }
 
 .benefits-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .benefit-name {
@@ -353,7 +353,7 @@ body {
 }
 
 .about-list-item {
-  flex-basis: calc((100% - 3 * 24) / 3);
+  width: calc((100% - 3 * 24px) / 3);
 }
 
 .about .about-img {
@@ -374,7 +374,8 @@ body {
 }
 
 .team-member-card {
-  flex-basis: calc((100%-3 * 24) / 4);
+  width: calc((100% - 3 * 24px) / 4);
+  padding-bottom: 32px;
 
   border-radius: 0px 0px 4px 4px;
   background-color: var(--secondary-color-white);
@@ -384,7 +385,7 @@ body {
 }
 
 .team-member-card-content {
-  padding: 32px 16px;
+  margin-top: 32px;
   text-align: center;
 }
 
@@ -423,8 +424,27 @@ body {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
+.portfolio .projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .portfolio .project-card {
+  width: calc((100% - 2 * 24px) / 3);
+  padding-bottom: 32px;
   border: 1px solid var(--primary-accent-color);
+}
+
+.portfolio .project-card-content {
+  margin-top: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.project-name {
+  margin-bottom: 8px;
 }
 
 .portfolio .project-category {
