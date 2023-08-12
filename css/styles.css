@@ -336,11 +336,12 @@ body {
 
 .benefits {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .benefits-list-item {
