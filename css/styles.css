@@ -309,7 +309,7 @@ body {
 }
 
 .hero .page-title {
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
 
   font-size: var(--page-title-text-size);
@@ -322,6 +322,7 @@ body {
 
 .hero .order-btn {
   padding: 16px 32px;
+  min-width: 169px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
