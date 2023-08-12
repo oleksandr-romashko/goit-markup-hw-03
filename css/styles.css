@@ -412,7 +412,7 @@ body {
 .portfolio .filters-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
   margin-bottom: 72px;
 }
 
@@ -443,13 +443,11 @@ body {
 .portfolio .project-card {
   width: calc((100% - 2 * 24px) / 3);
   padding-bottom: 32px;
-  border: 1px solid var(--primary-accent-color);
 }
 
 .portfolio .project-card-content {
-  margin-top: 32px;
-  padding-right: 16px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  border: 1px solid var(--primary-accent-color);
 }
 
 .project-name {
