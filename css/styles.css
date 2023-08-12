@@ -125,7 +125,12 @@ body {
   color: var(--title-color);
 }
 
-/*----  SECTION HEADINGS  ----*/
+/*----------  SECTION  -------*/
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .section-title {
   margin-bottom: 72px;
@@ -324,7 +329,6 @@ body {
 
 .benefits {
   padding-top: 120px;
-  padding-bottom: 60px;
 }
 
 .benefits-list {
@@ -343,7 +347,6 @@ body {
 /*----------  ABOUT  -------------*/
 
 .about {
-  padding-top: 60px;
   padding-bottom: 120px;
 }
 
