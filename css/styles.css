@@ -128,8 +128,8 @@ body {
 /*----------  SECTION  -------*/
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -332,11 +332,6 @@ body {
 
 /*---------  BENEFITS  -----------*/
 
-.benefits {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -353,7 +348,7 @@ body {
 /*----------  ABOUT  -------------*/
 
 .about {
-  padding-bottom: 120px;
+  padding-top: 0;
 }
 
 .about-list {
@@ -372,8 +367,6 @@ body {
 /*----------  TEAM  --------------*/
 
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
   background-color: var(--secondary-accent-color);
 }
 
