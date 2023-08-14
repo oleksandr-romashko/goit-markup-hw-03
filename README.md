@@ -6,11 +6,20 @@ This is the homework solution for the Box Model and Flexbox topics, based on the
 
 The solution includes only the markup and corresponding CSS styles.
 
+### Module objectives
+
+* Understand what a block model is and what it is used for.
+* Learn how to configure element geometry.
+* Understand how the spacing (margins and padding) of different elements interact.
+* Learn about the basic concepts of Flexbox technology.
+* Learn how to configure the properties of the flex container and flex elements.
+* Configure individual elements using the `:first-child`, `:last-child`, `:not()` and `:nth-child(an + b)` pseudo-classes.
+
 ## Task
 
 * Create a repository `goit-markup-hw-03`.
 * Clone the already created repository (`goit-markup-hw-03`) and copy files of the previous work to it (from `goit-markup-hw-02`).
-* Add styles for elements shape (width, padding, margins, and borders) and content positioning with Flexbox for layout pages of [Homework #3](https://www.figma.com/file/Kr5Q4EVrEAqpOWko4QeEJb/Web-Studio-(Version-4.0)?type=design&node-id=296708-626&t=xehgKGCXNQoohzws-0).
+* Add styles for elements geometry (width, padding, margins, and borders) and content positioning with Flexbox for layout pages of [Homework #3](https://www.figma.com/file/Kr5Q4EVrEAqpOWko4QeEJb/Web-Studio-(Version-4.0)?type=design&node-id=296708-626&t=xehgKGCXNQoohzws-0).
 * Configure GitHub Pages and add a link to the Live Page in the GitHub repository header.
 * The solution must meet the mentor's acceptance criteria.
 
